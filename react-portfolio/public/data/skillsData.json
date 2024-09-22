@@ -1,0 +1,50 @@
+{
+    "technicalSkills": [
+      {
+        "name": "Microsoft Office",
+        "level": "Advanced"
+      },
+      {
+        "name": "React.js",
+        "level": "Intermediate"
+      },
+      {
+        "name": "HTML5/CSS3",
+        "level": "Advanced"
+      },
+    
+      {
+        "name": "WordPress",
+        "level": "Advanced"
+      }
+    ],
+    "languageSkills": [
+      {
+        "name": "Bangla",
+        "proficiency": "Fluent"
+      },
+      {
+        "name": "English",
+        "proficiency": "Intermediate"
+      },
+      {
+        "name": "French",
+        "proficiency": "Basic"
+      }
+    ],
+    "otherSkills": [
+      {
+        "name": "Team Leadership",
+        "description": "Managed cross-functional teams for various digital marketing projects."
+      },
+      {
+        "name": "SEO & SEM",
+        "description": "Experienced in improving organic search rankings and paid search campaigns."
+      },
+      {
+        "name": "Content Creation",
+        "description": "Proficient in creating and managing content for digital platforms."
+      }
+    ]
+  }
+  

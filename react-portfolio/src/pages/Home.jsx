@@ -1,7 +1,58 @@
-import React, { useState, useEffect,  useRef } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
+import logo from '../assets/profile.svg';
 import Typed from 'typed.js';
 import './../index.css';
+import ProjectShowcase from '../components/ProjectShowcase';
+import Services from '../components/Services';
+import Skills from '../components/Skills';
+import Education from '../components/Education';
+import Timeline from '../components/Timeline';
+import SocialMedia from '../components/SocialMedia';
+
+export const educationData = [
+  {
+    school: 'University of Dhaka',
+    degree: 'Masters of Business Administration (MBA)',
+    subject: 'International Business',
+    year: '2012',
+    description: 'CGPA 3.19 out of 4.0',
+  },
+  {
+    school: 'University of Dhaka',
+    degree: 'Bachelor of Business Administration (BBA)',
+    subject: 'International Business',
+    year: '2011',
+    description: 'CGPA 3.27 out of 4.0',
+  },
+  {
+    school: 'Notre Dame College, Dhaka',
+    degree: 'Higher Secondary Certificate (HSC)',
+    subject: 'Business Studies',
+    year: '2006',
+    description: 'GPA 5.0 out of 5.0',
+  },
+];
+export const timelineData = [
+  {
+    title: 'Bachelor of Science in Computer Science',
+    organization: 'University of XYZ',
+    year: '2020',
+    description: 'Specialized in software development, algorithms, and data structures.',
+  },
+  {
+    title: 'High School Diploma',
+    organization: 'ABC High School',
+    year: '2016',
+    description: 'Graduated with honors and was part of the coding club.',
+  },
+  {
+    title: 'Online Course: Full-Stack Web Development',
+    organization: 'Udemy',
+    year: '2018',
+    description: 'Learned full-stack development using JavaScript, React, Node.js, and MongoDB.',
+  },
+];
 const Home = () => {
   const [homeData, setHomeData] = useState({});
   const typedElement = useRef(null);
@@ -30,17 +81,31 @@ const Home = () => {
 
   return (
     <>
-    <div className="container text-center mt-5 vh-100">
-      <h1 className="display-4">{homeData.title}</h1>
-      <p className="lead">{homeData.description}</p>
-      <p className="lead">
-        <span ref={typedElement}></span> 
-      </p>
-      <Link to="/about" className="btn btn-primary mt-3">
-        {homeData.buttonText}
-      </Link>
-    </div>
+      <div className="container-fluid text-center py-5 bg-gradient-dark">
+        <div className="row">
+          <div className="col-12 col-sm-6 my-auto">
+            <h1 className="display-4 text-primary">{homeData.title}</h1>
+            <p className="lead fs-3  fw-bold text-white">
+              I <span ref={typedElement} className='text-info'></span>
+            </p>
+          </div>
+          <div className="col-12 col-sm-6">
+            <figure>
+            <img src={logo} className="figure-img img-fluid rounded" width={200} alt="Profile Logo" />
+            </figure>
+          </div>
+        </div>
 
+        <Link to="/about" className="btn btn-primary mt-3">
+          {homeData.buttonText}
+        </Link>
+      </div>
+      <Skills />
+      <ProjectShowcase />
+      <Services />
+      <Education educationData={educationData} />
+      <Timeline timelineData={timelineData} />
+      <SocialMedia />
     </>
   );
 };

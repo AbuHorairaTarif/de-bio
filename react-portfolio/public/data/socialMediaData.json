@@ -1,0 +1,29 @@
+{
+  "socialMedia": [
+    {
+      "platform": "Facebook",
+      "url": "https://www.facebook.com/yourprofile",
+      "icon": "fab fa-facebook"
+    },
+    {
+      "platform": "WhatsApp",
+      "url": "https://wa.me/yourphonenumber",
+      "icon": "fab fa-whatsapp"
+    },
+    {
+      "platform": "Twitter",
+      "url": "https://twitter.com/yourprofile",
+      "icon": "fab fa-twitter"
+    },
+    {
+      "platform": "Instagram",
+      "url": "https://www.instagram.com/yourprofile",
+      "icon": "fab fa-instagram"
+    },
+    {
+      "platform": "Telegram",
+      "url": "https://t.me/yourprofile",
+      "icon": "fab fa-telegram"
+    }
+  ]
+}

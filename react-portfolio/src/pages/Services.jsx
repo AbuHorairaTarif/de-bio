@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
-
+import ProjectShowcase from '../components/ProjectShowcase';
+import Service from '../components/Services';
 const Services = () => {
   const [servicesData, setServicesData] = useState({});
 
@@ -10,8 +11,9 @@ const Services = () => {
   }, []);
 
   return (
+    <>
     <div className="container mt-5">
-      <h2>{servicesData.title}</h2>
+      <h2 className='text-center mb-4 text-primary fw-bold'>{servicesData.title}</h2>
       <ul className="list-group">
         {servicesData.list &&
           servicesData.list.map((service, index) => (
@@ -21,6 +23,9 @@ const Services = () => {
           ))}
       </ul>
     </div>
+    <Service />
+    <ProjectShowcase />
+    </>
   );
 };
 

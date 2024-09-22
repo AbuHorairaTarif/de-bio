@@ -1,0 +1,150 @@
+/* Timeline container */
+.timeline {
+    position: relative;
+    padding: 20px 0;
+    margin: 0;
+  }
+  
+  /* Timeline vertical line */
+  .timeline::before {
+    content: '';
+    position: absolute;
+    width: 4px;
+    background-color: var(--timeline);
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -2px;
+    z-index: 1;
+  }
+  
+  /* Timeline item container */
+  .timeline-item {
+    position: relative;
+    margin-bottom: 50px;
+    width: 50%;
+    padding: 20px;
+    z-index: 2;
+  }
+  
+  /* Alternating left and right positioning */
+  .timeline-item.left {
+    left: 0;
+  }
+  
+  .timeline-item.right {
+    left: 50%;
+  }
+  
+  /* Styling the timeline circles */
+  .timeline-item::before {
+    content: '';
+    position: absolute;
+    top: 20px;
+    right: -14px;
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border: 4px solid var(--timeline);
+    border-radius: 50%;
+    z-index: 3;
+  }
+  
+  .timeline-item.left::before {
+    right: auto;
+    left: -14px;
+  }
+  
+  /* Card-like content box */
+  .timeline-content {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    position: relative;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  
+  .timeline-item:hover .timeline-content {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+  }
+  
+  /* Arrow for the content box */
+  .timeline-item.left .timeline-content::after {
+    content: '';
+    position: absolute;
+    top: 20px;
+    right: -15px;
+    border-style: solid;
+    border-width: 10px 0 10px 15px;
+    border-color: transparent transparent transparent var(--timeline);
+  }
+  
+  .timeline-item.right .timeline-content::after {
+    content: '';
+    position: absolute;
+    top: 20px;
+    left: -15px;
+    border-style: solid;
+    border-width: 10px 15px 10px 0;
+    border-color: transparent var(--timeline) transparent transparent;
+  }
+  
+  /* Timeline text styles */
+  .timeline-content h4 {
+    margin-bottom: 10px;
+    color: var(--timeline);
+  }
+  
+  .timeline-content h5 {
+    margin-bottom: 5px;
+    color: #6c757d;
+  }
+  
+  .timeline-content span {
+    display: block;
+    margin-bottom: 10px;
+    color: #6c757d;
+  }
+  
+  .timeline-content p {
+    margin-bottom: 0;
+    color: #343a40;
+    line-height: 1.5;
+    font-size: 1rem;
+  }
+  
+  /* Timeline responsive design for smaller screens */
+  @media screen and (max-width: 768px) {
+    .timeline::before {
+      left: 20px;
+    }
+  
+    .timeline-item {
+      width: 100%;
+      padding-left: 40px;
+    }
+  
+    .timeline-item.left,
+    .timeline-item.right {
+      left: 0;
+    }
+  
+    .timeline-item.left::before,
+    .timeline-item.right::before {
+      left: 10px;
+    }
+  
+    .timeline-item.right .timeline-content::after {
+        content: '';
+        position: absolute;
+        top: 20px;
+        left: -15px;
+        border-style: solid;
+        border-width: 10px 15px 10px 0;
+        border-color: transparent var(--timeline) transparent transparent;
+    }
+    }
+  
+  
