@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import SocialMedia from '../components/SocialMedia';
+import ContactForm from '../components/ContactForm';
 const Contact = () => {
   const [contactData, setContactData] = useState({});
 
@@ -16,6 +17,7 @@ const Contact = () => {
       <p>{contactData.description}</p>
       <p>Email: {contactData.email}</p>
     </div>
+    <ContactForm></ContactForm>    
     <SocialMedia></SocialMedia>
     </>
   );
