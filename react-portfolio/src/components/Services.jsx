@@ -19,7 +19,7 @@ const Services = () => {
           <div className="col-md-4" key={index}>
             <div className="card mb-3">
               <div className="card-body text-center">
-                <i className={`${service.icon} fa-3x mb-3`} aria-hidden="true"></i>
+                <i className={`${service.icon} fa-3x mb-3 text-primary`} aria-hidden="true"></i>
                 <h5 className="card-title">{service.title}</h5>
                 <p className="card-text">{service.description}</p>
               </div>

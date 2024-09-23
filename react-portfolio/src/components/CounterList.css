@@ -14,7 +14,7 @@
   .count-number {
     font-size: 3rem;
     font-weight: bold;
-    color: #007bff;
+    color: var(--primary);
   }
   
   .count-title {
