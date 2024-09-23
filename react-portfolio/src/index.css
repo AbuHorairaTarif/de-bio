@@ -17,6 +17,9 @@ body {
   margin: 0;
   padding: 0;
   background-color: var(--secondary);
+  /* background-image: url('../src/assets/background-dark.png');
+  background-repeat: no-repeat;
+  background-size: cover; */
 }
 
 h1, h2 {

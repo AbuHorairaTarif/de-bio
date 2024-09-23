@@ -1,0 +1,23 @@
+[
+    {
+      "id": 1,
+      "name": "S M Nahid Hasan",
+      "role": "CEO, Example Company",
+      "testimonial": "His service was exceptional! Hasnat really delivered everything we needed and more. Highly recommend.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/9/91/Boki-avatar.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "role": "Marketing Manager, XYZ Corp",
+      "testimonial": "Very professional and efficient. We were very satisfied with the results!",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/2/2a/%E8%97%8D%E9%AD%94.webp"
+    },
+    {
+      "id": 3,
+      "name": "Samuel Jackson",
+      "role": "Founder, StartUp Inc.",
+      "testimonial": "They went above and beyond. The team’s expertise and dedication made a big difference.",
+      "image": "https://attic.sh/4uprcbve6dfm4y4dzrv7v2f1pxqp"
+    }
+  ]

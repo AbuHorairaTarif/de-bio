@@ -6,6 +6,7 @@ import './../index.css';
 import ProjectShowcase from '../components/ProjectShowcase';
 import Services from '../components/Services';
 import Skills from '../components/Skills';
+import TestimonialList from '../components/TestimonialList';
 import Education from '../components/Education';
 import Timeline from '../components/Timeline';
 import SocialMedia from '../components/SocialMedia';
@@ -90,8 +91,8 @@ const Home = () => {
             </p>
           </div>
           <div className="col-12 col-sm-6">
-            <figure>
-            <img src={logo} className="figure-img img-fluid rounded" width={200} alt="Profile Logo" />
+            <figure >
+            <img src="https://raw.githubusercontent.com/AbuHorairaTarif/test/refs/heads/main/hasnat.jpg" className="figure-img img-fluid rounded object-fit-cover shadow-lg" width={200} alt="Profile Logo" />
             </figure>
           </div>
         </div>
@@ -103,6 +104,7 @@ const Home = () => {
       <Skills />
       <ProjectShowcase />
       <Services />
+      <TestimonialList />
       <Education educationData={educationData} />
       <Timeline timelineData={timelineData} />
       <SocialMedia />

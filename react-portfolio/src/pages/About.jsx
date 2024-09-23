@@ -4,6 +4,7 @@ import Education from '../components/Education';
 import Skills from '../components/Skills';
 import { educationData, timelineData } from './Home';
 import Timeline from '../components/Timeline';
+import TestimonialList from '../components/TestimonialList';
 import Services from '../components/Services';
 import SocialMedia from '../components/SocialMedia';
 
@@ -24,8 +25,10 @@ const About = () => {
     </div>
     <Skills />
     <ProjectShowcase />
+    <TestimonialList />
     <Education educationData={educationData} />
     <Timeline timelineData={timelineData} />
+    <SocialMedia></SocialMedia>
     
     </>
   );
