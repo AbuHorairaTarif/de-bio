@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import logo from '../assets/profile.svg';
 import Typed from 'typed.js';
 import './../index.css';
+import CounterList from '../components/CounterList';
 import ProjectShowcase from '../components/ProjectShowcase';
 import Services from '../components/Services';
 import Skills from '../components/Skills';
@@ -102,6 +103,7 @@ const Home = () => {
         </Link>
       </div>
       <Skills />
+      <CounterList></CounterList>
       <ProjectShowcase />
       <Services />
       <TestimonialList />

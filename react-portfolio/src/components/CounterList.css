@@ -1,0 +1,25 @@
+.counter-card {
+    background-color: #f8f9fa;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .counter-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .count-number {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  .count-title {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #6c757d;
+  }
+  
