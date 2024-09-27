@@ -18,7 +18,7 @@ const ContactForm = () => {
         e.preventDefault();
 
         emailjs
-            .sendForm('service_fchobct', 'template_hs53xll', e.target, 'u4Pq7rUVeZokTmROG')
+            .sendForm('service_46kq33l', 'template_hs53xll', e.target, 'u4Pq7rUVeZokTmROG')
             .then(
                 (result) => {
                     console.log(result.text);
