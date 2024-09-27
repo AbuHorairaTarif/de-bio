@@ -1,50 +1,49 @@
 {
-    "projects": [
-      {
-        "title": "Digital Marketing",
-        "description": "A fully functional e-commerce platform with payment gateway integration and product management.",
-        "image": "https://www.wordstream.com/wp-content/uploads/2021/07/digital-marketing-trends-2021-digital-marketing-1.png",
-        "technologies": ["React", "Node.js", "MongoDB", "Stripe"],
-        "link": "https://ecommerce-project.com"
-      },
-      {
-        "title": "Microsoft Office Services",
-        "description": "A personal portfolio showcasing my work, skills, and experience.",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnouhmxHSx9om38SNJ2XKSOrGTPlctNqnm3A&s",
-        "technologies": ["React", "Bootstrap", "CSS3"],
-        "link": "https://portfolio-example.com"
-      },
-      {
-        "title": "Data Entry Service",
-        "description": "A blogging platform where users can create, edit, and comment on blog posts.",
-        "image": "https://cdn.kwork.com/pics/t3/06/22335565-1661252106.jpg",
-        "technologies": ["WordPress", "PHP", "MySQL"],
-        "link": "https://blog-platform.com"
-      },
-      {
-        "title": "SEO Optimization",
-        "description": "A blogging platform where users can create, edit, and comment on blog posts.",
-        "image": "https://www.ishack.ca/wp-content/uploads/2017/12/seo.jpg",
-        "technologies": ["WordPress", "PHP", "MySQL"],
-        "link": "https://blog-platform.com"
-      }
-    ],
-    "services": [
-      {
-        "title": "Data Entry",
-        "description": "Building responsive and dynamic websites using the latest technologies like React, Node.js, and WordPress.",
-        "icon": "fas fa-code"
-      },
-      {
-        "title": "SEO Optimization",
-        "description": "Improving website rankings and organic traffic through technical SEO, content strategies, and backlinking.",
-        "icon": "fas fa-chart-line"
-      },
-      {
-        "title": "Digital Marketing",
-        "description": "Providing tailored digital marketing strategies including social media, paid ads, and email marketing.",
-        "icon": "fas fa-bullhorn"
-      }
-    ]
-  }
-  
+  "projects": [
+    {
+      "title": "Digital Marketing",
+      "description": "A fully functional e-commerce platform with payment gateway integration and product management.",
+      "image": "https://www.wordstream.com/wp-content/uploads/2021/07/digital-marketing-trends-2021-digital-marketing-1.png",
+      "technologies": ["React", "Node.js", "MongoDB", "Stripe"],
+      "link": "https://ecommerce-project.com"
+    },
+    {
+      "title": "Microsoft Office Services",
+      "description": "A personal portfolio showcasing my work, skills, and experience.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnouhmxHSx9om38SNJ2XKSOrGTPlctNqnm3A&s",
+      "technologies": ["React", "Bootstrap", "CSS3"],
+      "link": "https://portfolio-example.com"
+    },
+    {
+      "title": "Data Entry Service",
+      "description": "A blogging platform where users can create, edit, and comment on blog posts.",
+      "image": "https://cdn.kwork.com/pics/t3/06/22335565-1661252106.jpg",
+      "technologies": ["WordPress", "PHP", "MySQL"],
+      "link": "https://blog-platform.com"
+    },
+    {
+      "title": "SEO Optimization",
+      "description": "A blogging platform where users can create, edit, and comment on blog posts.",
+      "image": "https://www.ishack.ca/wp-content/uploads/2017/12/seo.jpg",
+      "technologies": ["WordPress", "PHP", "MySQL"],
+      "link": "https://blog-platform.com"
+    }
+  ],
+  "services": [
+    {
+      "title": "Data Entry",
+      "description": "Building responsive and dynamic websites using the latest technologies like React, Node.js, and WordPress.",
+      "icon": "fas fa-code"
+    },
+    {
+      "title": "SEO Optimization",
+      "description": "Improving website rankings and organic traffic through technical SEO, content strategies, and backlinking.",
+      "icon": "fas fa-chart-line"
+    },
+    {
+      "title": "Digital Marketing",
+      "description": "Providing tailored digital marketing strategies including social media, paid ads, and email marketing.",
+      "icon": "fas fa-bullhorn"
+    }
+  ]
+}

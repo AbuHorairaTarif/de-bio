@@ -1,27 +1,14 @@
 [
-    {
-      "title": "Senior Digital Marketing Specialist",
-      "organization": "XYZ Media",
-      "year": "2023 - Present",
-      "description": "Managed a team of 10 digital marketers and led SEO and content marketing campaigns that increased organic traffic by 40%."
-    },
-    {
-      "title": "Digital Marketing Executive",
-      "organization": "ABC Technologies",
-      "year": "2020 - 2023",
-      "description": "Handled paid advertising campaigns across Google, Facebook, and LinkedIn, driving a 25% increase in conversion rates."
-    },
-    {
-      "title": "Content Writer & SEO Analyst",
-      "organization": "Creative Minds",
-      "year": "2018 - 2020",
-      "description": "Developed SEO-optimized content and executed keyword strategies that boosted search engine rankings for multiple clients."
-    },
-    {
-      "title": "Junior Data Entry Specialist",
-      "organization": "DataPro Solutions",
-      "year": "2016 - 2018",
-      "description": "Accurately entered and managed large volumes of client data, reducing data entry errors by 15% through process improvements."
-    }
-  ]
-  
+  {
+    "title": "Data Specialist, Manager",
+    "organization": "Asian Paints Bd Ltd.",
+    "year": "August 2018 – Continue",
+    "description": "Entered data into the system with speed and accuracy, averaging 45 WPM.\nManaged and updated client records, ensuring data integrity.\nAssisted with file transfers and backups.\nImplemented artificial intelligence tools in our workflow."
+  },
+  {
+    "title": "Data Entry Officer",
+    "organization": "Golden Harvest Ice cream Ltd",
+    "year": "May 2014 – September 2018",
+    "description": "Processed high-volume data within tight deadlines.\nCollaborated with the IT team on troubleshooting data-related issues.\nPerformed regular backups to ensure data preservation."
+  }
+]

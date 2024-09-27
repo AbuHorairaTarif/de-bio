@@ -98,7 +98,7 @@ const Home = () => {
           </div>
         </div>
 
-        <Link to="/about" className="btn btn-primary mt-3">
+        <Link to="/contact" className="btn btn-primary mt-3">
           {homeData.buttonText}
         </Link>
       </div>

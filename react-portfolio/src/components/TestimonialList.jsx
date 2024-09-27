@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import TestimonialCard from './TestimonialCard';
-import testimonialsData from '../../public/data/testimonial.json';
+import testimonialsData from '../../src/data/testimonial.json';
 
 import './TestimonialCard.css';
 

@@ -2,27 +2,23 @@
   "socialMedia": [
     {
       "platform": "Facebook",
-      "url": "https://www.facebook.com/yourprofile",
+      "url": "https://www.facebook.com/md.abulhasnat.bhuiyan.73",
       "icon": "fab fa-facebook"
     },
     {
       "platform": "WhatsApp",
-      "url": "https://wa.me/yourphonenumber",
+      "url": "https://wa.me/+8801916204562",
       "icon": "fab fa-whatsapp"
     },
-    {
-      "platform": "Twitter",
-      "url": "https://twitter.com/yourprofile",
-      "icon": "fab fa-twitter"
-    },
+    
     {
       "platform": "Instagram",
-      "url": "https://www.instagram.com/yourprofile",
+      "url": "https://www.instagram.com/md.abulhasnatbhuiyan483/",
       "icon": "fab fa-instagram"
     },
     {
       "platform": "Telegram",
-      "url": "https://t.me/yourprofile",
+      "url": "https://t.me/hasnat019",
       "icon": "fab fa-telegram"
     }
   ]

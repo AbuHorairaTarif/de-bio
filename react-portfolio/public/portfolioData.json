@@ -1,30 +1,30 @@
 {
-    "home": {
-      "title": "Welcome to My Portfolio",
-      "description": "I specialize in Digital Marketing and Data Entry.",
-      "buttonText": "HIRE ME",
-      "typedStrings": [
-      "am specialize in Digital Marketing.",
-      "am also Data Entry Specialist.",
-      "will grow your business!" 
+  "home": {
+    "title": "Welcome to My Portfolio",
+    "description": "I specialize in Digital Marketing and Data Entry.",
+    "buttonText": "HIRE ME",
+    "typedStrings": [
+    "am specialize in Digital Marketing.",
+    "am also Data Entry Specialist.",
+    "will grow your business!" 
+  ]
+  },
+  "about": {
+    "title": "About Me",
+    "description": "Dedicated Data Entry Specialist with over 10 years of experience in different renowned organizations. Familiar with different type of sites like quilbot.com, ChatGPT, yelp.com, yellowpages.com, apollo. Io, snov.io. clutch.co, hunter.io, Map scraper, Google search scraper Google Sheet, Google Form etc. I use different types of tools like Email Extractor, Instant Data Scraper, Web Scraper etc. to complete data collection."
+  },
+  "services": {
+    "title": "Services",
+    "list": [
+      "Digital Marketing Campaigns",
+      "SEO & SEM Optimization",
+      "Data Entry & Data Management",
+      "Social Media Management"
     ]
-    },
-    "about": {
-      "title": "About Me",
-      "description": "I have over 2 years of experience in digital marketing and data entry, helping businesses optimize their digital strategies and manage data efficiently."
-    },
-    "services": {
-      "title": "Services",
-      "list": [
-        "Digital Marketing Campaigns",
-        "SEO & SEM Optimization",
-        "Data Entry & Data Management"
-      ]
-    },
-    "contact": {
-      "title": "Contact Me",
-      "description": "Feel free to reach out for collaborations or queries.",
-      "email": "hasnat@example.com"
-    }
+  },
+  "contact": {
+    "title": "Contact Me",
+    "description": "Feel free to reach out for collaborations or queries.",
+    "email": "fourhhasnat@gmail.com"
   }
-  
+}
