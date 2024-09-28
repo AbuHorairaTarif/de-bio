@@ -7,6 +7,10 @@
     background-color:  var(--primary);
 }
 
+.nav-link.active {
+    font-weight: bold !important;
+    color: var(--active) !important; /* Change to your preferred color */
+  }
 
 
 .nav-link,a, .btn, button  {

@@ -1,0 +1,21 @@
+# Allow all crawlers to access everything, except the pages and directories specified below
+User-agent: *
+Disallow: /admin/
+Disallow: /wp-admin/
+Disallow: /login/
+Disallow: /cart/
+Disallow: /checkout/
+Disallow: /private/
+Disallow: /search/
+
+# Block specific crawlers (e.g., BadBot)
+User-agent: BadBot
+Disallow: /
+
+# Allow Googlebot full access except for sensitive areas
+User-agent: Googlebot
+Disallow: /admin/
+Disallow: /wp-admin/
+
+# Sitemap location for crawlers
+Sitemap: https://e-hasnat.vercel.app/sitemap.xml

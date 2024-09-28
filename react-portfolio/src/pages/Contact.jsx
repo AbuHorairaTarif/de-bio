@@ -15,7 +15,8 @@ const Contact = () => {
     <div className="container mt-5">
       <h2 className='text-center mb-4 text-primary fw-bold'>{contactData.title}</h2>
       <p>{contactData.description}</p>
-      <p>Email: <a href="mailto:fourhhasnat@gmail.com" className='text-dark fw-normal h6'>{contactData.email}</a> </p>
+      <p>Email: <a href={`mailto:${contactData.email}`} className='text-dark fw-normal h6'>{contactData.email}</a></p>
+
     </div>
     <ContactForm></ContactForm>    
     <SocialMedia></SocialMedia>

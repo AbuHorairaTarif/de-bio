@@ -38,21 +38,6 @@ export const educationData = [
 export const timelineData = [
   {
     title: 'Bachelor of Science in Computer Science',
-    organization: 'University of XYZ',
-    year: '2020',
-    description: 'Specialized in software development, algorithms, and data structures.',
-  },
-  {
-    title: 'High School Diploma',
-    organization: 'ABC High School',
-    year: '2016',
-    description: 'Graduated with honors and was part of the coding club.',
-  },
-  {
-    title: 'Online Course: Full-Stack Web Development',
-    organization: 'Udemy',
-    year: '2018',
-    description: 'Learned full-stack development using JavaScript, React, Node.js, and MongoDB.',
   },
 ];
 const Home = () => {
@@ -93,7 +78,7 @@ const Home = () => {
           </div>
           <div className="col-12 col-sm-6">
             <figure >
-            <img src="https://raw.githubusercontent.com/AbuHorairaTarif/test/refs/heads/main/hasnat.jpg" className="figure-img img-fluid rounded object-fit-cover shadow-lg" width={200} alt="Profile Logo" />
+            <img src="https://raw.githubusercontent.com/AbuHorairaTarif/test/refs/heads/main/hasnat.webp" className="figure-img img-fluid rounded object-fit-cover shadow-lg" width={200} alt="Profile Logo" />
             </figure>
           </div>
         </div>
