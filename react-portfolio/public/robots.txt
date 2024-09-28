@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /private/
+Disallow: /secret/
+Allow: /
+
+# Sitemap location for crawlers
+Sitemap: https://e-hasnat.vercel.app/sitemap.xml
