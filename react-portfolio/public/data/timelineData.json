@@ -1,14 +1,59 @@
 [
   {
-    "title": "Data Specialist, Manager",
+    "title": "Office Manager",
     "organization": "Asian Paints Bd Ltd.",
-    "year": "August 2018 – Continue",
-    "description": "Entered data into the system with speed and accuracy, averaging 45 WPM.\nManaged and updated client records, ensuring data integrity.\nAssisted with file transfers and backups.\nImplemented artificial intelligence tools in our workflow."
+    "year": "October 2021–Continue",
+    "description": [
+      "Typing accuracy",
+      "Communication skills",
+      "Time management",
+      "Attention to detail",
+      "Ability to research and collect data",
+      "Understanding of basic software",
+      "Self-motivation and high level of concentration",
+      "Organizational skills and ability to multitask",
+      "Discretion and critical thinking",
+      "Summarization skills"
+    ],
+    "keyAchievement": "Build strong team through motivation and communication."
+  },
+  {
+    "title": "Asst. Manager, Data Processing",
+    "organization": "Asian Paints Bd Ltd.",
+    "year": "August 2018-September 2021",
+    "description": [
+      "Committed to work just in time and good performer in stressful conditions",
+      "Open-minded, Positive attitude, Good follower, Proactive in nature",
+      "Good analytical and research skills",
+      "Able to work as an active member in a team and motivate people towards work",
+      "Implemented artificial intelligence tools in our workflow"
+    ]
+  },
+  {
+    "title": "Sr. Officer, Data Management",
+    "organization": "Golden Harvest Ice cream Ltd",
+    "year": "July 2016-July 2018",
+    "description": [
+      "Processed high-volume data within tight deadlines",
+      "Collaborated with the IT team on troubleshooting data-related issues",
+      "Performed regular backups to ensure data preservation",
+      "Entered data into the system with speed and accuracy, averaging 45 WPM",
+      "Managed and updated client records, ensuring data integrity",
+      "Assisted with file transfers and backups"
+    ]
   },
   {
     "title": "Data Entry Officer",
     "organization": "Golden Harvest Ice cream Ltd",
-    "year": "May 2014 – September 2018",
-    "description": "Processed high-volume data within tight deadlines.\nCollaborated with the IT team on troubleshooting data-related issues.\nPerformed regular backups to ensure data preservation."
+    "year": "May 2014–June 2016",
+    "description": [
+      "Inputting raw data into computer systems or databases",
+      "Verifying and validating the accuracy of entered data",
+      "Updating existing records with new information",
+      "Maintaining data confidentiality and security",
+      "Transcribing data between different formats or systems",
+      "Performing basic data cleaning and organization tasks"
+    ],
+    "keyAchievement": "Commended for excellent accuracy levels in data entry."
   }
 ]

@@ -4,4 +4,4 @@ Disallow: /secret/
 Allow: /
 
 # Sitemap location for crawlers
-Sitemap: https://e-hasnat.vercel.app/sitemap.xml
+sitemap: https://e-hasnat.vercel.app/sitemap.xml

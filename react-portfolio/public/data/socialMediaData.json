@@ -10,7 +10,11 @@
       "url": "https://wa.me/+8801916204562",
       "icon": "fab fa-whatsapp"
     },
-    
+    {
+      "platform": "LinkedIn",
+      "url": "https://www.linkedin.com/in/hasnat-bhuiyan",
+      "icon": "fab fa-linkedin"
+    },
     {
       "platform": "Instagram",
       "url": "https://www.instagram.com/md.abulhasnatbhuiyan483/",

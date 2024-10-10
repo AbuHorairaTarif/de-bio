@@ -1,23 +1,23 @@
 {
   "projects": [
     {
-      "title": "Digital Marketing",
+      "title": "Blog & Article writing",
       "description": "A fully functional e-commerce platform with payment gateway integration and product management.",
-      "image": "https://www.wordstream.com/wp-content/uploads/2021/07/digital-marketing-trends-2021-digital-marketing-1.png",
+      "image": "https://raw.githubusercontent.com/AbuHorairaTarif/test/refs/heads/main/project1.png",
       "technologies": ["React", "Node.js", "MongoDB", "Stripe"],
       "link": "https://ecommerce-project.com"
     },
     {
       "title": "Microsoft Office Services",
       "description": "A personal portfolio showcasing my work, skills, and experience.",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnouhmxHSx9om38SNJ2XKSOrGTPlctNqnm3A&s",
+      "image": "https://raw.githubusercontent.com/AbuHorairaTarif/test/refs/heads/main/project2.png",
       "technologies": ["React", "Bootstrap", "CSS3"],
       "link": "https://portfolio-example.com"
     },
     {
       "title": "Data Entry Service",
       "description": "A blogging platform where users can create, edit, and comment on blog posts.",
-      "image": "https://cdn.kwork.com/pics/t3/06/22335565-1661252106.jpg",
+      "image": "https://raw.githubusercontent.com/AbuHorairaTarif/test/refs/heads/main/project3.png",
       "technologies": ["WordPress", "PHP", "MySQL"],
       "link": "https://blog-platform.com"
     },

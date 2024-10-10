@@ -77,9 +77,10 @@ const Home = () => {
             </p>
           </div>
           <div className="col-12 col-sm-6">
-            <figure >
-            <img src="https://raw.githubusercontent.com/AbuHorairaTarif/test/refs/heads/main/hasnat.webp" className="figure-img img-fluid rounded object-fit-cover shadow-lg" width={200} alt="Profile Logo" />
+            <figure className='figure-container'>   
+              <img src="https://raw.githubusercontent.com/AbuHorairaTarif/test/refs/heads/main/hasnat.webp" className="img-fluid rounded object-fit-cover figure-img " width={200} alt="Profile Logo" />
             </figure>
+            <div className='moving-border'></div>
           </div>
         </div>
 

@@ -23,6 +23,7 @@ const Timeline = () => {
             organization={item.organization}
             year={item.year}
             description={item.description}
+            keyAchievement={item.keyAchievement}
             isRight={index % 2 === 0}
           />
         ))}

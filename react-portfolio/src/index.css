@@ -1,7 +1,7 @@
 :root {
   --primary: #9381ff;
   --hover: #7a65ef;
-  --active:  #f4f803;
+  --active: #f4f803;
   --typed-text: #e066f8;
   --secondary: #f8f7ff;
   --tertiary: #b8b8ff;
@@ -22,23 +22,36 @@ body {
   background-size: cover; */
 }
 
-h1, h2 {
+h1,
+h2 {
   text-align: center;
   color: var(--tertiary);
 }
 
-.home, .about, .services, .contact {
+.home,
+.about,
+.services,
+.contact {
   padding: 20px;
   max-width: 800px;
   margin: 50px auto;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
-h1,h2,h3,h4,h5,h6, ul, li {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li {
   font-family: "Lora", system-ui;
 }
 
-p, div, span {
+p,
+div,
+span {
   font-family: "Inter", system-ui;
 }
 
@@ -46,17 +59,18 @@ ul {
   list-style-type: none;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
 .btn-primary {
   background-color: var(--primary);
   transition: 0.3s linear;
+
   &:hover {
     background-color: var(--hover);
     color: var(--active);
-  }  
+  }
 }
 
 .text-primary {
@@ -65,6 +79,7 @@ a{
 
 .card {
   transition: .4s linear;
+
   &:hover {
     transform: scale(1.03);
   }
@@ -73,3 +88,11 @@ a{
 .bg-gradient-dark {
   background-image: conic-gradient(from 36deg at 20% 80%, #A100FFFF 0%, #000000 25%, #282A36 30%);
 }
+
+.figure-img {
+  box-shadow: 0px 0px 10px 5px var(--secondary) !important;
+}
+
+
+
+
