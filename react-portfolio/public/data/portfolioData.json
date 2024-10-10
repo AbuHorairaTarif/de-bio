@@ -1,48 +1,56 @@
 {
   "projects": [
     {
-      "title": "Blog & Article writing",
-      "description": "A fully functional e-commerce platform with payment gateway integration and product management.",
-      "image": "https://raw.githubusercontent.com/AbuHorairaTarif/test/refs/heads/main/project1.png",
-      "technologies": ["React", "Node.js", "MongoDB", "Stripe"],
-      "link": "https://ecommerce-project.com"
+      "title": "Instant Data Scraper",
+      "description": "Automated Instant Data Scraper services that effortlessly extract and organize data from any website.",
+      "image": "https://raw.githubusercontent.com/AbuHorairaTarif/test/refs/heads/main/data-scraper-min.jpg",
+      "technologies": ["Instant Data Scraper"],
+      "link": "https://youtu.be/jjbdv62loqM"
     },
     {
-      "title": "Microsoft Office Services",
-      "description": "A personal portfolio showcasing my work, skills, and experience.",
-      "image": "https://raw.githubusercontent.com/AbuHorairaTarif/test/refs/heads/main/project2.png",
-      "technologies": ["React", "Bootstrap", "CSS3"],
-      "link": "https://portfolio-example.com"
+      "title": "V-Look up",
+      "description": "Offering precise and efficient VLOOKUP solutions to streamline your data analysis and simplify workflows",
+      "image": "https://raw.githubusercontent.com/AbuHorairaTarif/test/refs/heads/main/v-lookup-min.jpg",
+      "technologies": ["Microsoft Excel"],
+      "link": "https://youtu.be/PuJi4VMmc6o"
     },
     {
-      "title": "Data Entry Service",
-      "description": "A blogging platform where users can create, edit, and comment on blog posts.",
-      "image": "https://raw.githubusercontent.com/AbuHorairaTarif/test/refs/heads/main/project3.png",
-      "technologies": ["WordPress", "PHP", "MySQL"],
-      "link": "https://blog-platform.com"
+      "title": "Email Extractor",
+      "description": "Smart email extractor solutions that efficiently gather targeted email addresses for your marketing needs",
+      "image": "https://raw.githubusercontent.com/AbuHorairaTarif/test/refs/heads/main/email-extractor-min.jpg",
+      "technologies": ["Email Extractor"],
+      "link": "https://youtu.be/opMdcZ7WLKY"
+    },
+    
+    {
+      "title": "Blog & Article Writing",
+      "description": "Delivering high-quality blog and article writing that informs, engages, and resonates with your audience.",
+      "image": "https://raw.githubusercontent.com/AbuHorairaTarif/test/refs/heads/main/blog-article-min.jpg",
+      "technologies": ["Microsoft Office"],
+      "link": "https://youtu.be/sbUzpLsPZ14"
     },
     {
-      "title": "SEO Optimization",
-      "description": "A blogging platform where users can create, edit, and comment on blog posts.",
-      "image": "https://www.ishack.ca/wp-content/uploads/2017/12/seo.jpg",
-      "technologies": ["WordPress", "PHP", "MySQL"],
-      "link": "https://blog-platform.com"
+      "title": "Power Point",
+      "description": "Creating impactful PowerPoint presentations that engage audiences and effectively communicate your message.",
+      "image": "https://raw.githubusercontent.com/AbuHorairaTarif/test/refs/heads/main/powerpoint-min.jpg",
+      "technologies": ["Microsoft Powerpoint"],
+      "link": "https://youtu.be/q7RTD1cRJ7c"
     }
   ],
   "services": [
     {
       "title": "Data Entry",
-      "description": "Basic Concept of MS excel, Word, Power point. Data Scraping, Data Mining, Email Collection. Content Writing, Translation, PDF To Doc.",
+      "description": "Offering smart, precise data entry services that save time and ensure seamless accuracy for your projects.",
       "icon": "fas fa-code"
     },
     {
-      "title": "SEO Optimization",
-      "description": "Improving website rankings and organic traffic through technical SEO, content strategies, and backlinking.",
+      "title": "WordPress Customization",
+      "description": "Providing unique and tailored WordPress customization services to create dynamic, user-friendly websites.",
       "icon": "fas fa-chart-line"
     },
     {
       "title": "Digital Marketing",
-      "description": "Providing tailored digital marketing strategies including social media, paid ads, and email marketing.",
+      "description": "Delivering smart, result-driven digital marketing strategies that boost your brand's online presence and growth.",
       "icon": "fas fa-bullhorn"
     }
   ]
